@@ -120,7 +120,7 @@ app.get("/", (req, res) => {
   res.json({
     message: "歡迎使用 CWA 天氣預報 API",
     endpoints: {
-      all: "/api/weather/getAllCityWeathe",
+      all: "/api/weather/getAllCityWeather",
       health: "/api/health",
     },
   });
